@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hesam - Portfolio</title>
+
+  <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+  <script src="https://unpkg.com/jquery"></script>
+  <script src="https://unpkg.com/popper"></script>
+  <script src="https://unpkg.com/bootstrap"></script>
+  <link rel="stylesheet" href="/static/stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+</head>
+
+<body class="{% block body_class %}{% endblock %}">
+
+      <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+          
+          <div class="container-fluid">
+              <a href="https://www.linkedin.com/in/hesam-shayegan/?locale=en_US">
+                  <i class="fa-brands fa-linkedin fa-xl" style="color: #0e58d8;"></i>
+              </a>
+              <a href="/" class="brand p-2">Hesam</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                </li>
+               
+              </ul>
+              <ul class="nav navbar-nav navbar-right">                    
+               
+                  <li><a href="">Software Engineer</a></li>
+                  <li><a href="">Resume</a></li>      
+                  
+                     
+              </ul>
+  
+            </div>
+          </div>
+        </nav>
+        
+    </header>      
+
+    <div class="{% block container_class %}container{% endblock %}">
+      {% for category, message in get_flashed_messages(with_categories=True) %}
+      <div class="alert alert-{{ category }}">{{ message }}</div>
+      {% endfor %}
+
+
+      {% block content %}
+
+      {% endblock %}
+
+     </div>
+    
+
+
+</body>
+</html>
