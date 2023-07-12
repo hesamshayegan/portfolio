@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block body_class %}onboarding{% endblock %}
+
+{% block content %}
+
+
+
+<div class="intro row p-4">
+        <p> HELLO THERE ! </p>
+        <h1 class="col-lg-7 col-md-10 col-sm-12 text-lg-start text-md-center text-sm-center">
+            I'm Hesam, a Software Engineer based in San Francisco.
+        </h1>
+</div>
+
+<div class="row p-4">
+    <div class="col-lg-6 col-md-12">
+        <a href="https://www.linkedin.com/in/hesam-shayegan/?locale=en_US" class="linkedin p-2">
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #a3aab8;"></i>
+        </a>
+        <a href="https://github.com/hesamshayegan" class="git p-2">
+            <i class="fa-brands fa-github fa-2xl" style="color: #c3c3c3;"></i>
+        </a>
+        
+
+    </div>
+</div>
+
+<p class="recent p-4" id="recent-projects"> | RECENT PROJECTS </p2>
+<div class="row p-4">
+    
+    <div class="col-lg-6 col-md-12">
+       <img src="/static/images/moviesbox.png">   
+    </div>
+    <div class="col-lg-6 col-md-12">
+        <div> 
+        <h2> MoviesBox </h2>
+        <p> MoviesBox is a website designed to assist users in discovering new movies according to their personal preferences.
+            It employs a robust machine learning algorithm that applies content-based filtering methods.
+            The algorithm has been trained on a comprehensive collection of 10,000 diverse movies.
+            By analyzing the movies that users enjoy the most, MoviesBox can provide accurate and appealing movie recommendations.
+        </p>
+        </div>
+        
+        <div class="tech-stack">
+            <p> Tech Stack: Python, Flask, PostgreSQL, HTML, CSS, Bootstrap </p>
+        </div>
+        
+        
+            <a class='web-link' href="http://moviesbox-391505.uw.r.appspot.com/homepage"> MoviesBox Site </a>
+            <a href="https://github.com/hesamshayegan/MoviesBox">
+                <i class="fa-brands fa-github fa-xl p-2" style="color: #c3c3c3;"></i>
+            </a>
+        
+        
+       
+    </div>
+
+</div>
+
+<div class="row p-4">
+    
+    
+        <div class="col-lg-6 col-md-12">
+            <div> 
+            <h2> StarWars Challenge </h2>
+            <p> 
+                The Star Wars Challenge is an interactive web-based game where players test their memory by flipping cards
+                and matching pairs of Star Wars main characters. Players are presented with a grid of cards, each depicting
+                a different character from the Star Wars universe. The objective is to find and match all the pairs of characters
+                by flipping two cards at a time. The game requires concentration, observation, and a good memory to remember the
+                positions of the cards. It's a fun and engaging way to challenge your knowledge of the iconic Star Wars characters
+                while enjoying a classic memory card game.
+            </p>
+            </div>
+            
+            <div class="tech-stack">
+                <p> Tech Stack: Vanilla JavaScript, HTML, CSS </p>
+            </div>
+            
+            
+                <a class='web-link' href="https://starwars-challenge.onrender.com/"> StarWars Challenge Site </a>
+                <a href="https://github.com/hesamshayegan/StarWars_Challenge">
+                    <i class="fa-brands fa-github fa-xl p-2" style="color: #c3c3c3;"></i>
+                </a>
+            
+        </div>
+    
+        <div class="col-lg-6 col-md-12">
+            <img src="/static/images/starwars.jpg">   
+         </div>
+         
+         
+</div>
+     
+     
+
+
+{% endblock %}

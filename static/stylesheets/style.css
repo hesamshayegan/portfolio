@@ -1,0 +1,124 @@
+body {
+    background: rgb(0, 0, 0);
+    font-family: 'Urbanist', sans-serif;
+    color:rgb(190, 190, 190);
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+}
+
+.container {
+    margin-top: 130px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+      overflow-x: hidden;
+    }
+} 
+
+
+@media (min-width: 1200px) {
+    .nav-btn {
+        margin: 125px;
+    }
+}
+.btn {
+    height: 40px;
+    background-color: none;
+    color: #e9674a;
+    margin: 10px;
+    border-color: #e9674a;
+    border-width: 2px;
+    
+    
+}
+
+.btn:hover {
+    background-color: #e9674a;
+    color: rgb(230, 230, 230);
+}
+ 
+
+.brand {
+    margin-left: 125px;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #e9674a;
+}
+
+
+.intro h1, .footer h1 {
+    font-family: 'Caprasimo', cursive;
+    color: rgb(230, 230, 230);
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(230, 230, 230);
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+
+p {
+    text-align: justify;
+}
+
+.fa-brands-linkedin {
+    height: 50px;
+}
+
+.web-link:hover {
+    color:rgb(230, 230, 230);
+}
+
+.recent {
+    font-size: 1.25rem;
+}
+
+.footer p {
+    color: rgb(190, 190, 190);
+}
+
+.about h1, .stack h1 {
+    color:rgb(230, 230, 230);
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.25rem;
+}
+
+.stack h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.stack img {
+    width: 120px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.stack li {
+    font-size: 1.25rem;
+    list-style-type: none;
+    padding: 5px;
+
+}

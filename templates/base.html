@@ -12,6 +12,9 @@
   <script src="https://unpkg.com/bootstrap"></script>
   <link rel="stylesheet" href="/static/stylesheets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Urbanist&display=swap" rel="stylesheet">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,13 +26,10 @@
 
       <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
           
           <div class="container-fluid">
-              <a href="https://www.linkedin.com/in/hesam-shayegan/?locale=en_US">
-                  <i class="fa-brands fa-linkedin fa-xl" style="color: #0e58d8;"></i>
-              </a>
-              <a href="/" class="brand p-2">Hesam</a>
+              <a href="/" class="brand">Hesam</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,11 +41,14 @@
                
               </ul>
               <ul class="nav navbar-nav navbar-right">                    
-               
-                  <li><a href="">Software Engineer</a></li>
-                  <li><a href="">Resume</a></li>      
-                  
-                     
+
+                <div class="nav-btn">
+                  <div class="nav-group">
+                    <a href="/about" class="btn">About Me</a>
+                    <a href="#recent-projects" class="btn">Projects</a>
+                    <a href="https://drive.google.com/file/d/1lejvZ7TcjRUkpM_4cw6RvzHARubYL8kB/view?usp=drive_link" target="_blank" class="btn">Resume</a>
+                  </div>
+                </div> 
               </ul>
   
             </div>
@@ -64,7 +67,69 @@
 
       {% endblock %}
 
-     </div>
+    </div>
+
+
+    <section class="footer">
+      <footer class="text-white text-center text-md-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <hr>
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h1 class="name p-2">Hesam Shayegan</h5>
+                
+                    <a href="https://www.linkedin.com/in/hesam-shayegan/?locale=en_US" class="linkedin p-2">
+                      <i class="fa-brands fa-linkedin fa-2xl" style="color: #a3aab8;"></i>
+                    </a>
+                  
+                    <a href="https://github.com/hesamshayegan" class="git p-2">
+                      <i class="fa-brands fa-github fa-2xl" style="color: #c3c3c3;"></i>
+                    </a>
+                  
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <p>
+                  As a <b>software engineer</b>, I'm passionate about using my skills 
+                  to create applications that are both beautiful and functional.
+                  I'm excited to be a part of the ever-evolving field of software engineering,
+                  and eager to see what the future holds.
+                </p>
+              </p>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <p>
+                Having experience working on both back-end and front-end tech stacks,              
+                I'm actively seeking new opportunities to use my skills and experience
+                to build innovative and user-friendly web applications.
+              </p>
+            </div> 
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <p>
+                In my spare time, I love the feeling of being in nature and exploring new places,
+                whether I'm hiking in the forests, biking through the countryside, or traveling to
+                far-off destinations. Music is a part of me that can never be taken away.
+              </p>
+            </div>    
+            
+        
+          </div>
+          
+        </div>
+        
+    
+        
+        <div class="p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <p class="text-center"> © 2023 - all rights reserved </p>
+        </div>
+        
+      </footer>
+    </section>
     
 
 
