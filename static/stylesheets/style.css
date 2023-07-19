@@ -84,10 +84,6 @@ p {
     height: 50px;
 }
 
-.web-link:hover {
-    color:rgb(230, 230, 230);
-}
-
 .recent {
     font-size: 1.25rem;
 }
@@ -121,4 +117,8 @@ p {
     list-style-type: none;
     padding: 5px;
 
+}
+
+.social:hover, .web-link:hover {
+    color: #e9674a;
 }
