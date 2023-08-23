@@ -130,5 +130,5 @@ p {
 
 .social:hover, .web-link:hover {
     color: #e9674a;
-    text-decoration: underline;
+    text-decoration: none;
 }
