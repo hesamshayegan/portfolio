@@ -126,9 +126,33 @@ p {
 
 .web-link {
     text-decoration: underline;
+    color: #d2c557;
 }
 
-.social:hover, .web-link:hover {
+.social:hover {
     color: #e9674a;
     text-decoration: none;
+}
+
+.subtitle-head {
+    color: rgb(190, 190, 190);
+    font-size: 1.25rem;
+    
+}
+
+.note {
+    margin-top: 8px;
+}
+
+.social-project {
+    color:#d2c557 ;
+}
+
+.social-project:hover, .web-link:hover {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+
+.greeting {
+    font-size: 1.5rem;
 }
