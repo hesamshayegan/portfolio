@@ -31,16 +31,16 @@ body {
 .btn {
     height: 40px;
     background-color: none;
-    color: #e9674a;
+    color: #0ab45a;
     margin: 10px;
-    border-color: #e9674a;
+    border-color: #0ab45a;
     border-width: 2px;
     
     
 }
 
 .btn:hover {
-    background-color: #e9674a;
+    background-color: #0ab45a;
     color: rgb(230, 230, 230);
 }
  
@@ -50,7 +50,7 @@ body {
     font-size: 2rem;
     text-decoration: none;
     font-weight: 700;
-    color: #e9674a;
+    color: #0ab45a;
 }
 
 
@@ -72,7 +72,7 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    color: #ed7f66;
+    color: #5ad694;
 }
 
 a {
@@ -126,11 +126,11 @@ p {
 
 .web-link {
     text-decoration: underline;
-    color: #d2c557;
+    color: #2d74b5;
 }
 
 .social:hover {
-    color: #e9674a;
+    color: #0ab45a;
     text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ p {
 }
 
 .social-project {
-    color:#d2c557 ;
+    color:#2d74b5 ;
 }
 
 .social-project:hover, .web-link:hover {
